@@ -9,7 +9,7 @@ losses = 0
 print("H A N G M A N")
 
 while True:
-    ans = input('Type "play" to play the game, "results" to show the scoreboard, and "exit" to quit:')
+    ans = input('Type "play" to play the game, "results" to show the scoreboard, and "exit" to quit: \n')
 
     if ans == "play":
 
@@ -60,7 +60,7 @@ while True:
             wins += 1
 
         else:
-            print("You lost!")
+            print("You lost!\n")
             losses += 1
 
     elif ans == "results":
