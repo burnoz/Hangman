@@ -65,7 +65,7 @@ while True:
 
     elif ans == "results":
         print("You won: {} times".format(wins))
-        print("You lost: {} times".format(losses))
+        print("You lost: {} times\n".format(losses))
 
     elif ans == "exit":
         break
